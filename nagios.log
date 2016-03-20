@@ -1,0 +1,385 @@
+[1458446400] LOG ROTATION: DAILY
+[1458446400] LOG VERSION: 2.0
+[1458446400] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.11 ms
+[1458446400] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.06, 0.10, 0.14
+[1458446400] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 6 users currently logged in
+[1458446400] CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11783 bytes in 0.001 second response time
+[1458446400] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.39 ms
+[1458446400] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 1410 MB (25% inode=49%):
+[1458446400] CURRENT SERVICE STATE: localhost;SSH;CRITICAL;HARD;4;Connection refused
+[1458446400] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (2045 MB out of 2045 MB)
+[1458446400] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 60 processes with STATE = RSZDT
+[1458447718] Caught SIGTERM, shutting down...
+[1458447718] Successfully shutdown... (PID=821)
+[1458447718] Event broker module 'NERD' deinitialized successfully.
+[1458447719] Nagios 4.0.4 starting... (PID=3569)
+[1458447719] Local time is Sun Mar 20 00:21:59 EDT 2016
+[1458447719] LOG VERSION: 2.0
+[1458447719] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1458447719] qh: core query handler registered
+[1458447719] nerd: Channel hostchecks registered successfully
+[1458447719] nerd: Channel servicechecks registered successfully
+[1458447719] nerd: Channel opathchecks registered successfully
+[1458447719] nerd: Fully initialized and ready to rock!
+[1458447719] wproc: Successfully registered manager as @wproc with query handler
+[1458447719] wproc: Registry request: name=Core Worker 3573;pid=3573
+[1458447719] wproc: Registry request: name=Core Worker 3572;pid=3572
+[1458447719] wproc: Registry request: name=Core Worker 3571;pid=3571
+[1458447719] wproc: Registry request: name=Core Worker 3570;pid=3570
+[1458447719] Successfully launched command file worker with pid 3574
+[1458447785] SERVICE ALERT: localhost;squid;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_squid.pl, ...) failed. errno is 2: No such file or directory
+[1458447965] SERVICE ALERT: localhost;squid;CRITICAL;SOFT;2;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_squid.pl, ...) failed. errno is 2: No such file or directory
+[1458448145] SERVICE ALERT: localhost;squid;CRITICAL;SOFT;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_squid.pl, ...) failed. errno is 2: No such file or directory
+[1458448277] Caught SIGTERM, shutting down...
+[1458448277] Successfully shutdown... (PID=3569)
+[1458448277] Event broker module 'NERD' deinitialized successfully.
+[1458448277] Nagios 4.0.4 starting... (PID=3746)
+[1458448277] Local time is Sun Mar 20 00:31:17 EDT 2016
+[1458448277] LOG VERSION: 2.0
+[1458448277] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1458448277] qh: core query handler registered
+[1458448277] nerd: Channel hostchecks registered successfully
+[1458448277] nerd: Channel servicechecks registered successfully
+[1458448277] nerd: Channel opathchecks registered successfully
+[1458448277] nerd: Fully initialized and ready to rock!
+[1458448277] wproc: Successfully registered manager as @wproc with query handler
+[1458448277] wproc: Registry request: name=Core Worker 3749;pid=3749
+[1458448277] wproc: Registry request: name=Core Worker 3748;pid=3748
+[1458448277] wproc: Registry request: name=Core Worker 3747;pid=3747
+[1458448277] wproc: Registry request: name=Core Worker 3750;pid=3750
+[1458448277] Successfully launched command file worker with pid 3751
+[1458448325] SERVICE ALERT: localhost;squid;CRITICAL;SOFT;4;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458448505] SERVICE ALERT: localhost;squid;CRITICAL;HARD;5;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458448505] SERVICE NOTIFICATION: nagiosadmin;localhost;squid;CRITICAL;notify-service-by-email;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458448505] wproc: NOTIFY job 2 from worker Core Worker 3750 is a non-check helper but exited with return code 127
+[1458448505] wproc:   command: /usr/bin/printf "%b" "***** Nagios *****\n\nNotification Type: PROBLEM\n\nService: squid\nHost: localhost\nAddress: 127.0.0.1\nState: CRITICAL\n\nDate/Time: Sun Mar 20 00:35:05 EDT 2016\n\nAdditional Info:\n\n(No output on stdout) stderr: Cant locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.\n" | usr/bin/sendmail -s "** PROBLEM Service Alert: localhost/squid is CRITICAL **" nagios@localhost
+[1458448505] wproc:   host=localhost; service=squid; contact=nagiosadmin
+[1458448505] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1458448505] wproc:   stderr line 01: /bin/sh: 1: usr/bin/sendmail: not found
+[1458448505] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1458449401] Caught SIGTERM, shutting down...
+[1458449401] Successfully shutdown... (PID=3746)
+[1458449401] Event broker module 'NERD' deinitialized successfully.
+[1458449401] Nagios 4.0.4 starting... (PID=3901)
+[1458449401] Local time is Sun Mar 20 00:50:01 EDT 2016
+[1458449401] LOG VERSION: 2.0
+[1458449401] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1458449401] qh: core query handler registered
+[1458449401] nerd: Channel hostchecks registered successfully
+[1458449401] nerd: Channel servicechecks registered successfully
+[1458449401] nerd: Channel opathchecks registered successfully
+[1458449401] nerd: Fully initialized and ready to rock!
+[1458449401] wproc: Successfully registered manager as @wproc with query handler
+[1458449401] wproc: Registry request: name=Core Worker 3905;pid=3905
+[1458449401] wproc: Registry request: name=Core Worker 3904;pid=3904
+[1458449401] wproc: Registry request: name=Core Worker 3903;pid=3903
+[1458449401] wproc: Registry request: name=Core Worker 3902;pid=3902
+[1458449401] Successfully launched command file worker with pid 3906
+[1458449678] Caught SIGTERM, shutting down...
+[1458449678] Successfully shutdown... (PID=3901)
+[1458449678] Event broker module 'NERD' deinitialized successfully.
+[1458449678] Nagios 4.0.4 starting... (PID=3979)
+[1458449678] Local time is Sun Mar 20 00:54:38 EDT 2016
+[1458449678] LOG VERSION: 2.0
+[1458449678] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1458449678] qh: core query handler registered
+[1458449678] nerd: Channel hostchecks registered successfully
+[1458449678] nerd: Channel servicechecks registered successfully
+[1458449678] nerd: Channel opathchecks registered successfully
+[1458449678] nerd: Fully initialized and ready to rock!
+[1458449678] wproc: Successfully registered manager as @wproc with query handler
+[1458449678] wproc: Registry request: name=Core Worker 3983;pid=3983
+[1458449678] wproc: Registry request: name=Core Worker 3982;pid=3982
+[1458449678] wproc: Registry request: name=Core Worker 3981;pid=3981
+[1458449678] wproc: Registry request: name=Core Worker 3980;pid=3980
+[1458449678] Successfully launched command file worker with pid 3984
+[1458449706] SERVICE ALERT: localhost;squid;OK;HARD;5;OK - Status: 200 OK
+[1458449706] SERVICE NOTIFICATION: nagiosadmin;localhost;squid;OK;notify-service-by-email;OK - Status: 200 OK
+[1458449706] wproc: NOTIFY job 0 from worker Core Worker 3981 is a non-check helper but exited with return code 127
+[1458449706] wproc:   command: /usr/bin/printf "%b" "***** Nagios *****\n\nNotification Type: RECOVERY\n\nService: squid\nHost: localhost\nAddress: 127.0.0.1\nState: OK\n\nDate/Time: Sun Mar 20 00:55:06 EDT 2016\n\nAdditional Info:\n\nOK - Status: 200 OK\n" | usr/bin/sendmail -s "** RECOVERY Service Alert: localhost/squid is OK **" nagios@localhost
+[1458449706] wproc:   host=localhost; service=squid; contact=nagiosadmin
+[1458449706] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1458449706] wproc:   stderr line 01: /bin/sh: 1: usr/bin/sendmail: not found
+[1458449706] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1458450005] SERVICE ALERT: localhost;squid;CRITICAL;SOFT;1;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458450185] SERVICE ALERT: localhost;squid;CRITICAL;SOFT;2;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458450365] SERVICE ALERT: localhost;squid;CRITICAL;SOFT;3;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458450545] SERVICE ALERT: localhost;squid;CRITICAL;SOFT;4;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458450725] SERVICE ALERT: localhost;squid;CRITICAL;HARD;5;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458450725] SERVICE NOTIFICATION: nagiosadmin;localhost;squid;CRITICAL;notify-service-by-email;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458450725] wproc: NOTIFY job 10 from worker Core Worker 3983 is a non-check helper but exited with return code 127
+[1458450725] wproc:   command: /usr/bin/printf "%b" "***** Nagios *****\n\nNotification Type: PROBLEM\n\nService: squid\nHost: localhost\nAddress: 127.0.0.1\nState: CRITICAL\n\nDate/Time: Sun Mar 20 01:12:05 EDT 2016\n\nAdditional Info:\n\n(No output on stdout) stderr: Cant locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.\n" | usr/bin/sendmail -s "** PROBLEM Service Alert: localhost/squid is CRITICAL **" nagios@localhost
+[1458450725] wproc:   host=localhost; service=squid; contact=nagiosadmin
+[1458450725] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1458450725] wproc:   stderr line 01: /bin/sh: 1: usr/bin/sendmail: not found
+[1458450725] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1458450871] Caught SIGTERM, shutting down...
+[1458450871] Successfully shutdown... (PID=3979)
+[1458450871] Event broker module 'NERD' deinitialized successfully.
+[1458450871] Nagios 4.0.4 starting... (PID=4167)
+[1458450871] Local time is Sun Mar 20 01:14:31 EDT 2016
+[1458450871] LOG VERSION: 2.0
+[1458450871] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1458450871] qh: core query handler registered
+[1458450871] nerd: Channel hostchecks registered successfully
+[1458450871] nerd: Channel servicechecks registered successfully
+[1458450871] nerd: Channel opathchecks registered successfully
+[1458450871] nerd: Fully initialized and ready to rock!
+[1458450871] wproc: Successfully registered manager as @wproc with query handler
+[1458450871] wproc: Registry request: name=Core Worker 4171;pid=4171
+[1458450871] wproc: Registry request: name=Core Worker 4170;pid=4170
+[1458450871] wproc: Registry request: name=Core Worker 4169;pid=4169
+[1458450871] wproc: Registry request: name=Core Worker 4168;pid=4168
+[1458450871] Successfully launched command file worker with pid 4172
+[1458452343] Caught SIGTERM, shutting down...
+[1458452343] Successfully shutdown... (PID=4167)
+[1458452343] Event broker module 'NERD' deinitialized successfully.
+[1458452344] Nagios 4.0.4 starting... (PID=4385)
+[1458452344] Local time is Sun Mar 20 01:39:04 EDT 2016
+[1458452344] LOG VERSION: 2.0
+[1458452344] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1458452344] qh: core query handler registered
+[1458452344] nerd: Channel hostchecks registered successfully
+[1458452344] nerd: Channel servicechecks registered successfully
+[1458452344] nerd: Channel opathchecks registered successfully
+[1458452344] nerd: Fully initialized and ready to rock!
+[1458452344] wproc: Successfully registered manager as @wproc with query handler
+[1458452344] wproc: Registry request: name=Core Worker 4389;pid=4389
+[1458452344] wproc: Registry request: name=Core Worker 4388;pid=4388
+[1458452344] wproc: Registry request: name=Core Worker 4387;pid=4387
+[1458452344] wproc: Registry request: name=Core Worker 4386;pid=4386
+[1458452344] Successfully launched command file worker with pid 4390
+[1458452525] SERVICE NOTIFICATION: nagiosadmin;localhost;squid;CRITICAL;notify-service-by-email;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458452525] wproc: NOTIFY job 1 from worker Core Worker 4388 is a non-check helper but exited with return code 127
+[1458452525] wproc:   command: /usr/bin/printf "%b" "***** Nagios *****\n\nNotification Type: PROBLEM\n\nService: squid\nHost: localhost\nAddress: 127.0.0.1\nState: CRITICAL\n\nDate/Time: Sun Mar 20 01:42:05 EDT 2016\n\nAdditional Info:\n\n(No output on stdout) stderr: Cant locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.\n" | usr/bin/sendmail -s "** PROBLEM Service Alert: localhost/squid is CRITICAL **" nagios@localhost
+[1458452525] wproc:   host=localhost; service=squid; contact=nagiosadmin
+[1458452525] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1458452525] wproc:   stderr line 01: /bin/sh: 1: usr/bin/sendmail: not found
+[1458452525] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1458454325] SERVICE NOTIFICATION: nagiosadmin;localhost;squid;CRITICAL;notify-service-by-email;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458454325] wproc: NOTIFY job 18 from worker Core Worker 4389 is a non-check helper but exited with return code 127
+[1458454325] wproc:   command: /usr/bin/printf "%b" "***** Nagios *****\n\nNotification Type: PROBLEM\n\nService: squid\nHost: localhost\nAddress: 127.0.0.1\nState: CRITICAL\n\nDate/Time: Sun Mar 20 02:12:05 EDT 2016\n\nAdditional Info:\n\n(No output on stdout) stderr: Cant locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.\n" | usr/bin/sendmail -s "** PROBLEM Service Alert: localhost/squid is CRITICAL **" nagios@localhost
+[1458454325] wproc:   host=localhost; service=squid; contact=nagiosadmin
+[1458454325] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1458454325] wproc:   stderr line 01: /bin/sh: 1: usr/bin/sendmail: not found
+[1458454325] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1458462411] Warning: A system time change of 7202 seconds (0d 2h 0m 2s forwards in time) has been detected.  Compensating...
+[1458463145] Auto-save of retention data completed successfully.
+[1458463327] SERVICE NOTIFICATION: nagiosadmin;localhost;squid;CRITICAL;notify-service-by-email;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458463327] wproc: NOTIFY job 34 from worker Core Worker 4386 is a non-check helper but exited with return code 127
+[1458463327] wproc:   command: /usr/bin/printf "%b" "***** Nagios *****\n\nNotification Type: PROBLEM\n\nService: squid\nHost: localhost\nAddress: 127.0.0.1\nState: CRITICAL\n\nDate/Time: Sun Mar 20 04:42:07 EDT 2016\n\nAdditional Info:\n\n(No output on stdout) stderr: Cant locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.\n" | usr/bin/sendmail -s "** PROBLEM Service Alert: localhost/squid is CRITICAL **" nagios@localhost
+[1458463327] wproc:   host=localhost; service=squid; contact=nagiosadmin
+[1458463327] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1458463327] wproc:   stderr line 01: /bin/sh: 1: usr/bin/sendmail: not found
+[1458463327] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1458465127] SERVICE NOTIFICATION: nagiosadmin;localhost;squid;CRITICAL;notify-service-by-email;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458465127] wproc: NOTIFY job 51 from worker Core Worker 4387 is a non-check helper but exited with return code 127
+[1458465127] wproc:   command: /usr/bin/printf "%b" "***** Nagios *****\n\nNotification Type: PROBLEM\n\nService: squid\nHost: localhost\nAddress: 127.0.0.1\nState: CRITICAL\n\nDate/Time: Sun Mar 20 05:12:07 EDT 2016\n\nAdditional Info:\n\n(No output on stdout) stderr: Cant locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.\n" | usr/bin/sendmail -s "** PROBLEM Service Alert: localhost/squid is CRITICAL **" nagios@localhost
+[1458465127] wproc:   host=localhost; service=squid; contact=nagiosadmin
+[1458465127] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1458465127] wproc:   stderr line 01: /bin/sh: 1: usr/bin/sendmail: not found
+[1458465127] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1458466745] Auto-save of retention data completed successfully.
+[1458466927] SERVICE NOTIFICATION: nagiosadmin;localhost;squid;CRITICAL;notify-service-by-email;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458466927] wproc: NOTIFY job 68 from worker Core Worker 4388 is a non-check helper but exited with return code 127
+[1458466927] wproc:   command: /usr/bin/printf "%b" "***** Nagios *****\n\nNotification Type: PROBLEM\n\nService: squid\nHost: localhost\nAddress: 127.0.0.1\nState: CRITICAL\n\nDate/Time: Sun Mar 20 05:42:07 EDT 2016\n\nAdditional Info:\n\n(No output on stdout) stderr: Cant locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.\n" | usr/bin/sendmail -s "** PROBLEM Service Alert: localhost/squid is CRITICAL **" nagios@localhost
+[1458466927] wproc:   host=localhost; service=squid; contact=nagiosadmin
+[1458466927] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1458466927] wproc:   stderr line 01: /bin/sh: 1: usr/bin/sendmail: not found
+[1458466927] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1458468727] SERVICE NOTIFICATION: nagiosadmin;localhost;squid;CRITICAL;notify-service-by-email;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458468727] wproc: NOTIFY job 85 from worker Core Worker 4389 is a non-check helper but exited with return code 127
+[1458468727] wproc:   command: /usr/bin/printf "%b" "***** Nagios *****\n\nNotification Type: PROBLEM\n\nService: squid\nHost: localhost\nAddress: 127.0.0.1\nState: CRITICAL\n\nDate/Time: Sun Mar 20 06:12:07 EDT 2016\n\nAdditional Info:\n\n(No output on stdout) stderr: Cant locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.\n" | usr/bin/sendmail -s "** PROBLEM Service Alert: localhost/squid is CRITICAL **" nagios@localhost
+[1458468727] wproc:   host=localhost; service=squid; contact=nagiosadmin
+[1458468727] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1458468727] wproc:   stderr line 01: /bin/sh: 1: usr/bin/sendmail: not found
+[1458468727] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1458470345] Auto-save of retention data completed successfully.
+[1458470527] SERVICE NOTIFICATION: nagiosadmin;localhost;squid;CRITICAL;notify-service-by-email;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458470527] wproc: NOTIFY job 101 from worker Core Worker 4386 is a non-check helper but exited with return code 127
+[1458470527] wproc:   command: /usr/bin/printf "%b" "***** Nagios *****\n\nNotification Type: PROBLEM\n\nService: squid\nHost: localhost\nAddress: 127.0.0.1\nState: CRITICAL\n\nDate/Time: Sun Mar 20 06:42:07 EDT 2016\n\nAdditional Info:\n\n(No output on stdout) stderr: Cant locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.\n" | usr/bin/sendmail -s "** PROBLEM Service Alert: localhost/squid is CRITICAL **" nagios@localhost
+[1458470527] wproc:   host=localhost; service=squid; contact=nagiosadmin
+[1458470527] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1458470527] wproc:   stderr line 01: /bin/sh: 1: usr/bin/sendmail: not found
+[1458470527] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1458472327] SERVICE NOTIFICATION: nagiosadmin;localhost;squid;CRITICAL;notify-service-by-email;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458472327] wproc: NOTIFY job 118 from worker Core Worker 4387 is a non-check helper but exited with return code 127
+[1458472327] wproc:   command: /usr/bin/printf "%b" "***** Nagios *****\n\nNotification Type: PROBLEM\n\nService: squid\nHost: localhost\nAddress: 127.0.0.1\nState: CRITICAL\n\nDate/Time: Sun Mar 20 07:12:07 EDT 2016\n\nAdditional Info:\n\n(No output on stdout) stderr: Cant locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.\n" | usr/bin/sendmail -s "** PROBLEM Service Alert: localhost/squid is CRITICAL **" nagios@localhost
+[1458472327] wproc:   host=localhost; service=squid; contact=nagiosadmin
+[1458472327] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1458472327] wproc:   stderr line 01: /bin/sh: 1: usr/bin/sendmail: not found
+[1458472327] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1458473945] Auto-save of retention data completed successfully.
+[1458474127] SERVICE NOTIFICATION: nagiosadmin;localhost;squid;CRITICAL;notify-service-by-email;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458474127] wproc: NOTIFY job 135 from worker Core Worker 4388 is a non-check helper but exited with return code 127
+[1458474127] wproc:   command: /usr/bin/printf "%b" "***** Nagios *****\n\nNotification Type: PROBLEM\n\nService: squid\nHost: localhost\nAddress: 127.0.0.1\nState: CRITICAL\n\nDate/Time: Sun Mar 20 07:42:07 EDT 2016\n\nAdditional Info:\n\n(No output on stdout) stderr: Cant locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.\n" | usr/bin/sendmail -s "** PROBLEM Service Alert: localhost/squid is CRITICAL **" nagios@localhost
+[1458474127] wproc:   host=localhost; service=squid; contact=nagiosadmin
+[1458474127] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1458474127] wproc:   stderr line 01: /bin/sh: 1: usr/bin/sendmail: not found
+[1458474127] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1458475927] SERVICE NOTIFICATION: nagiosadmin;localhost;squid;CRITICAL;notify-service-by-email;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458475927] wproc: NOTIFY job 152 from worker Core Worker 4389 is a non-check helper but exited with return code 127
+[1458475927] wproc:   command: /usr/bin/printf "%b" "***** Nagios *****\n\nNotification Type: PROBLEM\n\nService: squid\nHost: localhost\nAddress: 127.0.0.1\nState: CRITICAL\n\nDate/Time: Sun Mar 20 08:12:07 EDT 2016\n\nAdditional Info:\n\n(No output on stdout) stderr: Cant locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.\n" | usr/bin/sendmail -s "** PROBLEM Service Alert: localhost/squid is CRITICAL **" nagios@localhost
+[1458475927] wproc:   host=localhost; service=squid; contact=nagiosadmin
+[1458475927] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1458475927] wproc:   stderr line 01: /bin/sh: 1: usr/bin/sendmail: not found
+[1458475927] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1458477545] Auto-save of retention data completed successfully.
+[1458477727] SERVICE NOTIFICATION: nagiosadmin;localhost;squid;CRITICAL;notify-service-by-email;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458477727] wproc: NOTIFY job 168 from worker Core Worker 4386 is a non-check helper but exited with return code 127
+[1458477727] wproc:   command: /usr/bin/printf "%b" "***** Nagios *****\n\nNotification Type: PROBLEM\n\nService: squid\nHost: localhost\nAddress: 127.0.0.1\nState: CRITICAL\n\nDate/Time: Sun Mar 20 08:42:07 EDT 2016\n\nAdditional Info:\n\n(No output on stdout) stderr: Cant locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.\n" | usr/bin/sendmail -s "** PROBLEM Service Alert: localhost/squid is CRITICAL **" nagios@localhost
+[1458477727] wproc:   host=localhost; service=squid; contact=nagiosadmin
+[1458477727] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1458477727] wproc:   stderr line 01: /bin/sh: 1: usr/bin/sendmail: not found
+[1458477727] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1458479527] SERVICE NOTIFICATION: nagiosadmin;localhost;squid;CRITICAL;notify-service-by-email;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458479527] wproc: NOTIFY job 185 from worker Core Worker 4387 is a non-check helper but exited with return code 127
+[1458479527] wproc:   command: /usr/bin/printf "%b" "***** Nagios *****\n\nNotification Type: PROBLEM\n\nService: squid\nHost: localhost\nAddress: 127.0.0.1\nState: CRITICAL\n\nDate/Time: Sun Mar 20 09:12:07 EDT 2016\n\nAdditional Info:\n\n(No output on stdout) stderr: Cant locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.\n" | usr/bin/sendmail -s "** PROBLEM Service Alert: localhost/squid is CRITICAL **" nagios@localhost
+[1458479527] wproc:   host=localhost; service=squid; contact=nagiosadmin
+[1458479527] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1458479527] wproc:   stderr line 01: /bin/sh: 1: usr/bin/sendmail: not found
+[1458479527] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1458481145] Auto-save of retention data completed successfully.
+[1458481327] SERVICE NOTIFICATION: nagiosadmin;localhost;squid;CRITICAL;notify-service-by-email;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458481327] wproc: NOTIFY job 202 from worker Core Worker 4388 is a non-check helper but exited with return code 127
+[1458481327] wproc:   command: /usr/bin/printf "%b" "***** Nagios *****\n\nNotification Type: PROBLEM\n\nService: squid\nHost: localhost\nAddress: 127.0.0.1\nState: CRITICAL\n\nDate/Time: Sun Mar 20 09:42:07 EDT 2016\n\nAdditional Info:\n\n(No output on stdout) stderr: Cant locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.\n" | usr/bin/sendmail -s "** PROBLEM Service Alert: localhost/squid is CRITICAL **" nagios@localhost
+[1458481327] wproc:   host=localhost; service=squid; contact=nagiosadmin
+[1458481327] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1458481327] wproc:   stderr line 01: /bin/sh: 1: usr/bin/sendmail: not found
+[1458481327] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1458483127] SERVICE NOTIFICATION: nagiosadmin;localhost;squid;CRITICAL;notify-service-by-email;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458483127] wproc: NOTIFY job 219 from worker Core Worker 4389 is a non-check helper but exited with return code 127
+[1458483127] wproc:   command: /usr/bin/printf "%b" "***** Nagios *****\n\nNotification Type: PROBLEM\n\nService: squid\nHost: localhost\nAddress: 127.0.0.1\nState: CRITICAL\n\nDate/Time: Sun Mar 20 10:12:07 EDT 2016\n\nAdditional Info:\n\n(No output on stdout) stderr: Cant locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.\n" | usr/bin/sendmail -s "** PROBLEM Service Alert: localhost/squid is CRITICAL **" nagios@localhost
+[1458483127] wproc:   host=localhost; service=squid; contact=nagiosadmin
+[1458483127] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1458483127] wproc:   stderr line 01: /bin/sh: 1: usr/bin/sendmail: not found
+[1458483127] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1458484745] Auto-save of retention data completed successfully.
+[1458484927] SERVICE NOTIFICATION: nagiosadmin;localhost;squid;CRITICAL;notify-service-by-email;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458484927] wproc: NOTIFY job 235 from worker Core Worker 4386 is a non-check helper but exited with return code 127
+[1458484927] wproc:   command: /usr/bin/printf "%b" "***** Nagios *****\n\nNotification Type: PROBLEM\n\nService: squid\nHost: localhost\nAddress: 127.0.0.1\nState: CRITICAL\n\nDate/Time: Sun Mar 20 10:42:07 EDT 2016\n\nAdditional Info:\n\n(No output on stdout) stderr: Cant locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.\n" | usr/bin/sendmail -s "** PROBLEM Service Alert: localhost/squid is CRITICAL **" nagios@localhost
+[1458484927] wproc:   host=localhost; service=squid; contact=nagiosadmin
+[1458484927] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1458484927] wproc:   stderr line 01: /bin/sh: 1: usr/bin/sendmail: not found
+[1458484927] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1458486861] SERVICE NOTIFICATION: nagiosadmin;localhost;squid;CRITICAL;notify-service-by-email;(No output on stdout) stderr: Can't locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.
+[1458486861] wproc: NOTIFY job 252 from worker Core Worker 4386 is a non-check helper but exited with return code 127
+[1458486861] wproc:   command: /usr/bin/printf "%b" "***** Nagios *****\n\nNotification Type: PROBLEM\n\nService: squid\nHost: localhost\nAddress: 127.0.0.1\nState: CRITICAL\n\nDate/Time: Sun Mar 20 11:14:21 EDT 2016\n\nAdditional Info:\n\n(No output on stdout) stderr: Cant locate utils.pm in @INC (you may need to install the utils module) (@INC contains: /nagios/nagios/nagios-plugins-2.0 /etc/perl /usr/local/lib/perl/5.18.2 /usr/local/share/perl/5.18.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.18 /usr/share/perl/5.18 /usr/local/lib/site_perl .) at /usr/local/nagios/libexec/check_squid.pl line 21.\n" | usr/bin/sendmail -s "** PROBLEM Service Alert: localhost/squid is CRITICAL **" nagios@localhost
+[1458486861] wproc:   host=localhost; service=squid; contact=nagiosadmin
+[1458486861] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1458486861] wproc:   stderr line 01: /bin/sh: 1: usr/bin/sendmail: not found
+[1458486861] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1458487789] Caught SIGTERM, shutting down...
+[1458487789] Successfully shutdown... (PID=4385)
+[1458487789] Event broker module 'NERD' deinitialized successfully.
+[1458487790] Nagios 4.0.4 starting... (PID=7314)
+[1458487790] Local time is Sun Mar 20 11:29:50 EDT 2016
+[1458487790] LOG VERSION: 2.0
+[1458487790] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1458487790] qh: core query handler registered
+[1458487790] nerd: Channel hostchecks registered successfully
+[1458487790] nerd: Channel servicechecks registered successfully
+[1458487790] nerd: Channel opathchecks registered successfully
+[1458487790] nerd: Fully initialized and ready to rock!
+[1458487790] wproc: Successfully registered manager as @wproc with query handler
+[1458487790] wproc: Registry request: name=Core Worker 7318;pid=7318
+[1458487790] wproc: Registry request: name=Core Worker 7317;pid=7317
+[1458487790] wproc: Registry request: name=Core Worker 7316;pid=7316
+[1458487790] wproc: Registry request: name=Core Worker 7315;pid=7315
+[1458487790] Successfully launched command file worker with pid 7319
+[1458488126] Caught SIGTERM, shutting down...
+[1458488126] Successfully shutdown... (PID=7314)
+[1458488126] Event broker module 'NERD' deinitialized successfully.
+[1458488127] Nagios 4.0.4 starting... (PID=7433)
+[1458488127] Local time is Sun Mar 20 11:35:27 EDT 2016
+[1458488127] LOG VERSION: 2.0
+[1458488127] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1458488127] qh: core query handler registered
+[1458488127] nerd: Channel hostchecks registered successfully
+[1458488127] nerd: Channel servicechecks registered successfully
+[1458488127] nerd: Channel opathchecks registered successfully
+[1458488127] nerd: Fully initialized and ready to rock!
+[1458488127] wproc: Successfully registered manager as @wproc with query handler
+[1458488127] wproc: Registry request: name=Core Worker 7437;pid=7437
+[1458488127] wproc: Registry request: name=Core Worker 7436;pid=7436
+[1458488127] wproc: Registry request: name=Core Worker 7435;pid=7435
+[1458488127] wproc: Registry request: name=Core Worker 7434;pid=7434
+[1458488127] Successfully launched command file worker with pid 7438
+[1458488361] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458488361] SERVICE ALERT: localhost;squid;UNKNOWN;HARD;5;(Return code of 255 is out of bounds)
+[1458488661] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458488961] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458489261] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458489561] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458489861] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458490161] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458490335] Caught SIGTERM, shutting down...
+[1458490335] Successfully shutdown... (PID=7433)
+[1458490335] Event broker module 'NERD' deinitialized successfully.
+[1458490336] Nagios 4.0.4 starting... (PID=7718)
+[1458490336] Local time is Sun Mar 20 12:12:16 EDT 2016
+[1458490336] LOG VERSION: 2.0
+[1458490336] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1458490336] qh: core query handler registered
+[1458490336] nerd: Channel hostchecks registered successfully
+[1458490336] nerd: Channel servicechecks registered successfully
+[1458490336] nerd: Channel opathchecks registered successfully
+[1458490336] nerd: Fully initialized and ready to rock!
+[1458490336] wproc: Successfully registered manager as @wproc with query handler
+[1458490336] wproc: Registry request: name=Core Worker 7722;pid=7722
+[1458490336] wproc: Registry request: name=Core Worker 7721;pid=7721
+[1458490336] wproc: Registry request: name=Core Worker 7720;pid=7720
+[1458490336] wproc: Registry request: name=Core Worker 7719;pid=7719
+[1458490336] Successfully launched command file worker with pid 7723
+[1458490462] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458490761] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458491060] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458491360] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458491660] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458491960] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458492260] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458492560] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458492860] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458493160] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458493460] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458493761] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458493935] Auto-save of retention data completed successfully.
+[1458494060] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458494360] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458494660] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458494960] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458495260] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458495560] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458495860] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458499077] Nagios 4.0.4 starting... (PID=819)
+[1458499077] Local time is Sun Mar 20 14:37:57 EDT 2016
+[1458499077] LOG VERSION: 2.0
+[1458499077] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1458499077] qh: core query handler registered
+[1458499077] nerd: Channel hostchecks registered successfully
+[1458499077] nerd: Channel servicechecks registered successfully
+[1458499077] nerd: Channel opathchecks registered successfully
+[1458499077] nerd: Fully initialized and ready to rock!
+[1458499077] wproc: Successfully registered manager as @wproc with query handler
+[1458499077] wproc: Registry request: name=Core Worker 824;pid=824
+[1458499077] wproc: Registry request: name=Core Worker 823;pid=823
+[1458499077] wproc: Registry request: name=Core Worker 822;pid=822
+[1458499077] wproc: Registry request: name=Core Worker 821;pid=821
+[1458499077] Successfully launched command file worker with pid 826
+[1458499377] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458499677] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458499977] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458500277] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458500577] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458500877] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458501177] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458501477] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458501777] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458502077] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458502377] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458502676] Auto-save of retention data completed successfully.
+[1458502677] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458502977] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458503277] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458503577] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
+[1458503877] Warning: Return code of 255 for check of service 'squid' on host 'localhost' was out of bounds.
